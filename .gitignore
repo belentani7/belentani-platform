@@ -1,0 +1,36 @@
+# Dependencias
+node_modules/
+.pnp
+.pnp.js
+
+# Builds
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# Entorno / secretos
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Tooling local
+.kilo/
+.claude/
+.vscode/*
+!.vscode/extensions.json
+
+# SO / editores
+.DS_Store
+Thumbs.db
+
+# Test / cobertura
+coverage/
+.nyc_output/
